@@ -5,6 +5,12 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Scanner;
+
+/**
+ * Mappings of AACCategory that map over AACCategory
+ * @author Alyssa Trapp
+ */
+
 public class AACMappings {
 
   // +--------+------------------------------------------------------
@@ -22,7 +28,9 @@ public class AACMappings {
   */
   AACCategory curCategory;
 
-
+ /**
+   * The associative array storing the categories
+  */
   AssociativeArray <String, AACCategory> categories;
 
   /**

@@ -67,7 +67,7 @@ public String getCategory(){
 */
 public String[] getImages() {
   return arr.getAllKeys();
-} //getImages()
+} // getImages()
   
 /**
  * Returns the text associated with the image location in the category
@@ -90,7 +90,7 @@ public String getText(String image) {
 
 /**
  * Determines if image is in the current category
-*/
+ */
 public boolean hasImage(String image){
   return arr.hasKey(image);
   }
